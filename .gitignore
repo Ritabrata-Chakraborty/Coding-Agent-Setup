@@ -1,0 +1,19 @@
+# never commit secrets, memory, sessions or caches
+.credentials.json
+auth.json
+.env*
+**/memory/
+projects/
+sessions/
+session-env/
+history.jsonl
+file-history/
+shell-snapshots/
+telemetry/
+backups/
+cache/
+state/
+graphify-out/
+*.sqlite*
+*.log
+__pycache__/

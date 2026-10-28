@@ -1,0 +1,44 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__codegraph__codegraph_explore",
+      "mcp__codegraph__codegraph_search",
+      "mcp__codegraph__codegraph_node",
+      "mcp__codegraph__codegraph_callers",
+      "mcp__codegraph__codegraph_callees",
+      "mcp__codegraph__codegraph_impact",
+      "mcp__codegraph__codegraph_files",
+      "mcp__codegraph__codegraph_status",
+      "WebSearch"
+    ],
+    "additionalDirectories": [
+      "/tmp",
+      "/home/rc/.claude",
+      "/home/rc/.tweakidea"
+    ]
+  },
+  "model": "sonnet",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /home/rc/.claude/scripts/graphify-session-hint.py",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  },
+  "effortLevel": "medium",
+  "modelSettings": {
+    "claude-opus-5-5": {
+      "effortLevel": "medium"
+    }
+  },
+  "theme": "dark",
+  "switchModelsOnFlag": false,
+  "agentPushNotifEnabled": true,
+  "tui": "fullscreen"
+}

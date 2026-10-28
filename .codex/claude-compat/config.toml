@@ -1,0 +1,156 @@
+project_doc_fallback_filenames = ["CLAUDE.md"]
+
+model = "gpt-6-astra"
+model_reasoning_effort = "high"
+[desktop]
+followUpQueueMode = "steer"
+conversationDetailMode = "STEPS_PROSE"
+sansFontSize = 14
+codeFontSize = 13
+ambient-suggestions-enabled = true
+
+[marketplaces.openai-bundled]
+source_type = "local"
+source = "/home/rc/.codex/.tmp/bundled-marketplaces/openai-bundled"
+
+[marketplaces.openai-primary-runtime]
+source_type = "local"
+source = "/home/rc/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime"
+
+[plugins."codex-app-tools@openai-bundled"]
+enabled = true
+
+[plugins."browser@openai-bundled"]
+enabled = true
+
+[plugins."unified-computer-use@openai-bundled"]
+enabled = true
+
+[plugins."visualize@openai-bundled"]
+enabled = true
+
+[plugins."code-review@openai-bundled"]
+enabled = true
+
+[plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[plugins."pdf@openai-primary-runtime"]
+enabled = true
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = true
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = true
+
+[plugins."template-creator@openai-primary-runtime"]
+enabled = true
+
+[mcp_servers.node_repl]
+args = []
+command = "/usr/lib/chatgpt/resources/cua_node/bin/node_repl"
+env_vars = ["BROWSER_USE_ACCESS_EXECUTOR_ID", "BROWSER_USE_ACCESS_PIPE_PATH", "BROWSER_USE_ACCESS_VERIFYING_IDENTITY"]
+startup_timeout_sec = 120
+
+[mcp_servers.node_repl.env]
+NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS = "1000"
+NODE_REPL_NODE_MODULE_DIRS = "/usr/lib/chatgpt/resources/cua_node/lib/node_modules"
+NODE_REPL_NODE_PATH = "/usr/lib/chatgpt/resources/cua_node/bin/node"
+NODE_REPL_TRUSTED_CODE_PATHS = "/home/rc/.codex:/usr/lib/chatgpt/resources/cua_node/lib/node_modules"
+CODEX_HOME = "/home/rc/.codex"
+BROWSER_USE_AVAILABLE_BACKENDS = "chrome,iab,mcpapps"
+BROWSER_USE_TINYSKY_ENABLED = "1"
+NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER = ""
+NODE_REPL_INSTRUCTIONS_USE_CASE_CHROME = ""
+BROWSER_USE_CODEX_APP_BUILD_FLAVOR = "prod"
+BROWSER_USE_CODEX_APP_VERSION = "26.1016.61520"
+NODE_REPL_TRUSTED_SERVICES = '{"browser":"/home/rc/.codex/plugins/cache/openai-bundled/browser/26.1016.61520/scripts/browser-service.mjs"}'
+CODEX_CLI_PATH = "/usr/lib/chatgpt/resources/codex"
+
+[projects."/home/rc/Downloads/multi_critic_nav/mcrl"]
+trust_level = "trusted"
+
+[mcp_servers.codegraph]
+command = "/home/rc/.local/bin/codegraph"
+args = ["serve", "--mcp"]
+
+[[skills.config]]
+path = "/home/rc/.agents/skills/claude-academic-paper-86ad19a/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/home/rc/.agents/skills/claude-academic-paper-reviewer-e15cd08/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/home/rc/.agents/skills/claude-academic-pipeline-183820f/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/home/rc/.agents/skills/claude-deep-research-e195c69/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/home/rc/.agents/skills/claude-docx/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/home/rc/.agents/skills/claude-pdf/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/home/rc/.agents/skills/claude-pptx/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/home/rc/.agents/skills/claude-built-in-browser/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/home/rc/.agents/skills/claude-chrome-browser/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/home/rc/.agents/skills/claude-computer-use/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/home/rc/.agents/skills/claude-docs/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/home/rc/.agents/skills/claude-docx-97af66e/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/home/rc/.agents/skills/claude-google-workspace/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/home/rc/.agents/skills/claude-import-memory/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/home/rc/.agents/skills/claude-morning/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/home/rc/.agents/skills/claude-pdf-4cc22f1/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/home/rc/.agents/skills/claude-pptx-2b58404/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/home/rc/.agents/skills/claude-skill-creator/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/home/rc/.agents/skills/claude-xlsx/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "/home/rc/.agents/skills/claude-xlsx-f7e7ac6/SKILL.md"
+enabled = false

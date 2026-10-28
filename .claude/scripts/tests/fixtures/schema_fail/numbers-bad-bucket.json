@@ -1,0 +1,32 @@
+{
+  "weighted_total": 3.2,
+  "potential_total": 3.5,
+  "verdict_bucket": "MAYBE",
+  "verdict_label": "MAYBE is not a valid bucket",
+  "rankings": [
+    {
+      "dim": "Pain Intensity",
+      "slug": "pain-intensity",
+      "weight": 0.12,
+      "score": 4,
+      "potential": 4,
+      "weighted_score": 0.48,
+      "evidence_strength": {
+        "both_confirmed": 2,
+        "research_only": 1,
+        "founder_only": 0,
+        "assumed": 1,
+        "grade": "B"
+      }
+    }
+  ],
+  "overall_grade": "C",
+  "assumption_impact_math": [],
+  "evidence_totals": {
+    "both_confirmed": 2,
+    "research_only": 1,
+    "founder_only": 0,
+    "assumed": 1
+  },
+  "reach_potential_blocks": []
+}

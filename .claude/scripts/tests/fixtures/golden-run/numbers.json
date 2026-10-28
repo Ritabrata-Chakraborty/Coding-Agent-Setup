@@ -1,0 +1,293 @@
+{
+  "weighted_total": 3.2,
+  "potential_total": 3.5,
+  "verdict_bucket": "PIVOT",
+  "verdict_label": "PIVOT — Promising, address weak areas",
+  "rankings": [
+    {
+      "dim": "Pain Intensity",
+      "slug": "pain-intensity",
+      "weight": 0.12,
+      "score": 4,
+      "potential": 4,
+      "weighted_score": 0.48,
+      "evidence_strength": {
+        "both_confirmed": 2,
+        "research_only": 1,
+        "founder_only": 0,
+        "assumed": 1,
+        "grade": "C"
+      }
+    },
+    {
+      "dim": "Willingness to Pay",
+      "slug": "willingness-to-pay",
+      "weight": 0.12,
+      "score": 3,
+      "potential": 4,
+      "weighted_score": 0.36,
+      "evidence_strength": {
+        "both_confirmed": 1,
+        "research_only": 0,
+        "founder_only": 1,
+        "assumed": 2,
+        "grade": "D"
+      }
+    },
+    {
+      "dim": "Solution Gap",
+      "slug": "solution-gap",
+      "weight": 0.12,
+      "score": 4,
+      "potential": 4,
+      "weighted_score": 0.48,
+      "evidence_strength": {
+        "both_confirmed": 0,
+        "research_only": 3,
+        "founder_only": 0,
+        "assumed": 0,
+        "grade": "C"
+      }
+    },
+    {
+      "dim": "Founder-Market Fit",
+      "slug": "founder-market-fit",
+      "weight": 0.12,
+      "score": 3,
+      "potential": 3,
+      "weighted_score": 0.36,
+      "evidence_strength": {
+        "both_confirmed": 0,
+        "research_only": 0,
+        "founder_only": 2,
+        "assumed": 2,
+        "grade": "F"
+      }
+    },
+    {
+      "dim": "Urgency",
+      "slug": "urgency",
+      "weight": 0.08,
+      "score": 2,
+      "potential": 3,
+      "weighted_score": 0.16,
+      "evidence_strength": {
+        "both_confirmed": 0,
+        "research_only": 0,
+        "founder_only": 1,
+        "assumed": 3,
+        "grade": "F"
+      }
+    },
+    {
+      "dim": "Frequency",
+      "slug": "frequency",
+      "weight": 0.08,
+      "score": 4,
+      "potential": 4,
+      "weighted_score": 0.32,
+      "evidence_strength": {
+        "both_confirmed": 2,
+        "research_only": 1,
+        "founder_only": 0,
+        "assumed": 1,
+        "grade": "C"
+      }
+    },
+    {
+      "dim": "Market Size",
+      "slug": "market-size",
+      "weight": 0.08,
+      "score": 3,
+      "potential": 3,
+      "weighted_score": 0.24,
+      "evidence_strength": {
+        "both_confirmed": 0,
+        "research_only": 2,
+        "founder_only": 1,
+        "assumed": 1,
+        "grade": "D"
+      }
+    },
+    {
+      "dim": "Defensibility",
+      "slug": "defensibility",
+      "weight": 0.08,
+      "score": 2,
+      "potential": 3,
+      "weighted_score": 0.16,
+      "evidence_strength": {
+        "both_confirmed": 0,
+        "research_only": 0,
+        "founder_only": 0,
+        "assumed": 4,
+        "grade": "F"
+      }
+    },
+    {
+      "dim": "Market Growth",
+      "slug": "market-growth",
+      "weight": 0.04,
+      "score": 3,
+      "potential": 3,
+      "weighted_score": 0.12,
+      "evidence_strength": {
+        "both_confirmed": 0,
+        "research_only": 2,
+        "founder_only": 0,
+        "assumed": 1,
+        "grade": "D"
+      }
+    },
+    {
+      "dim": "Scalability",
+      "slug": "scalability",
+      "weight": 0.04,
+      "score": 4,
+      "potential": 4,
+      "weighted_score": 0.16,
+      "evidence_strength": {
+        "both_confirmed": 1,
+        "research_only": 1,
+        "founder_only": 0,
+        "assumed": 1,
+        "grade": "D"
+      }
+    },
+    {
+      "dim": "Clarity of Target Customer",
+      "slug": "clarity-of-target-customer",
+      "weight": 0.04,
+      "score": 3,
+      "potential": 3,
+      "weighted_score": 0.12,
+      "evidence_strength": {
+        "both_confirmed": 0,
+        "research_only": 0,
+        "founder_only": 2,
+        "assumed": 1,
+        "grade": "F"
+      }
+    },
+    {
+      "dim": "Behavior Change Required",
+      "slug": "behavior-change-required",
+      "weight": 0.04,
+      "score": 3,
+      "potential": 4,
+      "weighted_score": 0.12,
+      "evidence_strength": {
+        "both_confirmed": 0,
+        "research_only": 0,
+        "founder_only": 2,
+        "assumed": 1,
+        "grade": "F"
+      }
+    },
+    {
+      "dim": "Mandatory Nature",
+      "slug": "mandatory-nature",
+      "weight": 0.02,
+      "score": 2,
+      "potential": 2,
+      "weighted_score": 0.04,
+      "evidence_strength": {
+        "both_confirmed": 0,
+        "research_only": 0,
+        "founder_only": 0,
+        "assumed": 4,
+        "grade": "F"
+      }
+    },
+    {
+      "dim": "Incumbent Indifference",
+      "slug": "incumbent-indifference",
+      "weight": 0.02,
+      "score": 3,
+      "potential": 3,
+      "weighted_score": 0.06,
+      "evidence_strength": {
+        "both_confirmed": 0,
+        "research_only": 0,
+        "founder_only": 0,
+        "assumed": 3,
+        "grade": "F"
+      }
+    }
+  ],
+  "overall_grade": "D",
+  "assumption_impact_math": [
+    {
+      "assumption_text": "Teams would pay $50-100/month for reconciliation automation",
+      "dim": "Willingness to Pay",
+      "score_delta": 1,
+      "weighted_uplift": 0.12
+    },
+    {
+      "assumption_text": "Month-end close creates a forcing event that raises urgency above the chronic baseline",
+      "dim": "Urgency",
+      "score_delta": 1,
+      "weighted_uplift": 0.08
+    },
+    {
+      "assumption_text": "Accumulated reconciliation pattern data creates a matching-accuracy flywheel",
+      "dim": "Defensibility",
+      "score_delta": 1,
+      "weighted_uplift": 0.08
+    },
+    {
+      "assumption_text": "API integrations (vs CSV upload) will reduce behavior change to near-zero for Stripe/PayPal users",
+      "dim": "Behavior Change Required",
+      "score_delta": 1,
+      "weighted_uplift": 0.04
+    }
+  ],
+  "evidence_totals": {
+    "both_confirmed": 6,
+    "research_only": 10,
+    "founder_only": 9,
+    "assumed": 25
+  },
+  "reach_potential_blocks": [
+    {
+      "dim": "Willingness to Pay",
+      "slug": "willingness-to-pay",
+      "from": 3,
+      "to": 4,
+      "weighted_uplift": 0.12,
+      "assumption_texts": [
+        "Teams would pay $50-100/month for reconciliation automation"
+      ]
+    },
+    {
+      "dim": "Urgency",
+      "slug": "urgency",
+      "from": 2,
+      "to": 3,
+      "weighted_uplift": 0.08,
+      "assumption_texts": [
+        "Month-end close creates a forcing event that raises urgency above the chronic baseline"
+      ]
+    },
+    {
+      "dim": "Defensibility",
+      "slug": "defensibility",
+      "from": 2,
+      "to": 3,
+      "weighted_uplift": 0.08,
+      "assumption_texts": [
+        "Accumulated reconciliation pattern data creates a matching-accuracy flywheel"
+      ]
+    },
+    {
+      "dim": "Behavior Change Required",
+      "slug": "behavior-change-required",
+      "from": 3,
+      "to": 4,
+      "weighted_uplift": 0.04,
+      "assumption_texts": [
+        "API integrations (vs CSV upload) will reduce behavior change to near-zero for Stripe/PayPal users"
+      ]
+    }
+  ]
+}
